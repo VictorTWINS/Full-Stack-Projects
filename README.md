@@ -20,3 +20,6 @@ Para facilitar a navegação, os projetos estão organizados por módulos:
 - [x] HTML5 e CSS3: Estruturação e Design Responsivo.
 - [ ] JavaScript: Lógica de programação (Em andamento ⏳).
 - [ ] TypeScript & Node: (Aguardando...).
+
+## <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/a8cf8850-0fdf-4361-a412-dabe6986f433" /> Rede Social
+Perfil Victor: www.linkedin.com/in/victor-montinegro-de-assunção-0628121b5
