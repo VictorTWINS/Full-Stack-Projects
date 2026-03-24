@@ -1,0 +1,71 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-size: 22px;
+            font-family: 'Zain', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333333;
+        }
+        .Fonte-texto {
+            color: #555555;
+            line-height: 1.6;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #777777;
+        }
+            .fonte-texto2 {
+                color: #504e4e;
+                font-style: italic;
+                margin-top: 10px;
+            }
+            
+            .hobbies {
+                margin: 8px;    
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+             .hobbies-1 {
+                    display: inline-block;
+                    text-align: center;
+                    margin: 10px;
+                }
+                
+            .descrição_Hobbies {
+                font-size: 18px;
+                color: #333333;
+                font-family: 'Zain', sans-serif;
+            }
+            #familia{
+                font-weight: bold;
+                color: #333333;
+            }
