@@ -21,6 +21,6 @@ Para facilitar a navegação, os projetos estão organizados por módulos:
 - [ ] JavaScript: Lógica de programação (Em andamento ⏳).
 - [ ] TypeScript & Node: (Aguardando...).
 
-## <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/a8cf8850-0fdf-4361-a412-dabe6986f433" /> Rede Social
-
-Perfil linkeding-Victor: www.linkedin.com/in/victor-montinegro-de-assunção-0628121b5
+## 📬 Vamos nos conectar?
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/victor-montinegro-de-assunção-0628121b5)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VictorTWINS)
