@@ -1,0 +1,48 @@
+table {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            
+        }
+        table td, table th {
+            font-size: 15px;
+            border: 2px solid #6e6e6e;
+            padding: 12px;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            }
+
+        div{
+            max-width: 100%;    
+            overflow-x: auto;
+        }
+
+        .Estilo{
+            padding: 20px 0px;
+            text-align: left;
+            font-size: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgba(0, 0, 128, 0.8);
+            font-style: italic;
+        }
+        th{
+            background-color: rgba(0, 0, 100, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .Rodape{
+            background-color: rgba(0, 0, 100, 0.2);
+            font-weight: bold;
+        }
+        tbody tr:hover {
+            background-color: rgba(0, 0, 100, 0.05);
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        tbody td:hover {
+            background-color: rgba(0, 0, 128, 0.15);
+            color: #000080;
+            font-weight: bold;
+}
