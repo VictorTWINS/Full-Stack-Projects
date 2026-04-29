@@ -1,0 +1,851 @@
+html
+{scroll-behavior: smooth;}
+
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+#Corpo
+{max-width: 100%;
+max-height: 100%;}
+
+#Cabecalho
+{display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 15px;
+position: fixed; z-index: 1;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+width: 100%;
+height:10%;
+background-color: rgba(255, 255, 255, 0.9)}
+
+.Titulo-Cabecalho
+{font-family: "Lilita One", sans-serif;
+font-weight: 200;
+font-style: normal;
+margin-left: 18px;
+margin-bottom: 20px;
+user-select: none;
+font-size: 36px;
+color: #BF0413;}
+
+.Titulo-Cabecalho:hover
+{color: rgb(255, 157, 0);}
+
+.SubTitulo-Cabecalho
+{position: relative;
+top: 20px;
+right: 420px;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-style: italic;
+margin-left: 18px;
+user-select: none;
+font-size: 26px;
+color: #BF0413;}
+
+.SubTitulo-Cabecalho:hover
+{color: rgb(255, 157, 0);}
+
+.Menu .Link
+{margin-right: 70px;
+user-select: none;
+font-size: 30px;
+color: #592202;
+font-weight: 450;
+text-decoration: none;}
+
+.Menu .Link:hover
+{font-weight: 450;
+color: #BF0413;
+user-select: none;}
+
+#Principal
+{width: 100%;
+height: 100%;}
+
+.Principal-Conteudo
+{display: flex;
+justify-content: center;
+padding-top: 180px;}
+
+#Div1
+{width: 950px;
+height: 800px;
+margin-top: 10px;
+margin-left: 200px;}
+
+.Titulo-Principal
+{height: 100px;   
+margin: 20px 0 0 60px;
+padding-left: 50px;
+padding-top: 5px;
+font-size: 90px;    
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: italic;
+color: rgba(214, 127, 22);
+user-select: none;}
+
+.Titulo-Principal2
+{height: 100px;   
+margin: 150px 0 0 60px;
+padding-left: 40px;
+padding-top: 5px;
+font-size: 90px;
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: italic;
+color: rgba(214, 127, 22);
+user-select: none;}
+
+.Paragrafo-Principal1
+{font-size: 18px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+margin: 145px 0 20px 60px;
+padding: 38px;
+color: rgba(59, 17, 4, 0.8);}
+
+.Butao
+{font-size: 20px;
+font-family: "Montserrat", sans-serif;
+font-style: italic;
+font-weight: 400;
+text-decoration: none;
+margin-left: 90px;
+border:#ffffff;
+border-radius: 60px;
+background-color:#82310f;
+color:#ffffff;
+padding: 20px;
+user-select: none;}
+
+.Butao:hover
+{user-select: none;
+font-size: 20px;
+background-color: #FFFFFF;
+transition: ease-in 200ms;
+color: #d67f16;
+text-decoration: none;}
+
+#Div2
+{width: 550px;
+height: 600px;
+margin: 70px 0 0 100px;
+align-items: center;
+background-image: url(Burger.png);
+border-radius: 10px;}
+
+#Div3
+{height: 60px;
+padding: 12px 15px 12px 15px;
+margin: 70px 0 0 0px;
+align-items: center;
+position: relative;
+right: 550px;
+top: 30px;
+background-color: #592202;
+border-radius: 20px;
+color: #ffffff;}
+
+.Titulo-Principal3
+{font-family: "Montserrat", sans-serif;
+font-size: 11.5px;
+font-weight: 600;
+font-style: italic;
+color: rgb(255, 255, 255);
+user-select: none;}
+
+.Paragrafo-Principal3
+{font-size: 20px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+user-select: none;}
+
+#Div4
+{height: 60px;
+padding: 12px 15px 12px 15px;
+margin: 70px 0 0 0px;
+align-items: center;
+position: relative;
+right: 300px;
+top: 510px;
+background-color: #592202;
+border-radius: 20px;
+color: #ffffff;}
+
+.Titulo-Principal4
+{font-family: "Montserrat", sans-serif;
+font-size: 11.5px;
+font-weight: 600;
+font-style: italic;
+color: rgb(255, 255, 255);
+user-select: none;}
+
+.Paragrafo-Principal4
+{font-size: 18px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+user-select: none;}
+
+#Secundario-Conteudo
+{width: 100%;
+height: 100%;}
+
+.DivPai
+{display: flex;
+justify-content: center;}
+
+.Paragrafo-Principa
+{margin-top: 10px;
+margin-left: -200px;}
+
+#Div5 .Paragrafo-Principal5
+{font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 800;
+font-style: italic;
+justify-self: center;
+color: rgba(214, 127, 22);
+margin-top: 80px;
+user-select: none;}
+
+#Div5 .Titulo-Principal5
+{justify-self: center;
+margin-top: 20px;
+font-family: "Montserrat", sans-serif;
+font-size: 38px;
+font-style: italic;
+color: #592202;
+margin-bottom: 60px;
+user-select: none;}
+
+.Topicos
+{border-radius: 60px;
+background-color: #82310f;
+color: #FFFFFF;
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+padding: 15px;
+margin: 50px 26px;
+text-decoration: none;
+position: relative;
+left: 750px;
+bottom: 27px;
+user-select: none;}
+
+.Topicos:hover
+{user-select: none;
+font-size: 18px;
+background-color: #FFFFFF;
+transition: ease-in 200ms;
+color: #d67f16;
+text-decoration: none;}
+
+#Div6
+{width: 400px;
+height: 600px;
+border-radius: 25px;
+margin: 30px 30px 80px 30px;
+background-color: rgba(214, 127, 22, 0.3);}
+
+#Div7
+{width: 400px;
+height: 600px;
+border-radius: 25px;
+margin: 30px 30px 80px 30px;
+background-color: rgba(214, 127, 22, 0.3);}
+
+#Div8
+{width: 400px;
+height: 600px;
+border-radius: 25px;
+margin: 30px 30px 80px 30px;
+background-color: rgba(214, 127, 22, 0.3);}
+
+#Div9
+{width: 400px;
+height: 600px;
+border-radius: 25px;
+margin: 30px 30px 80px 30px;
+background-color: rgba(214, 127, 22, 0.3);}
+
+#Div10
+{width: 100%;
+height: 80px;
+justify-content: center;}
+
+.Filha1
+{width: 400px;
+height: 300px;
+border-radius: 25px 25px 0 0;
+background-image: url(Doble-Burger.jpg);}
+
+.Filha2
+{width: 400px;
+height: 300px;
+border-radius: 25px 25px 0 0;
+background-image: url(Pizza.jpg);}
+
+.Filha3
+{width: 400px;
+height: 300px;
+border-radius: 25px 25px 0 0;
+background-image: url(Combo.png);}
+
+.Filha4
+{width: 400px;
+height: 300px;
+border-radius: 25px 25px 0 0;
+background-image: url(Bebidas.png);}
+
+.Paragrafo-filha
+{margin: 15px;
+font-family: "Lilita One", sans-serif;
+font-size: 25px;
+font-weight: 300;
+color:#BF0413;}
+
+.Titulo-filha
+{margin-top: 20px;
+margin-left: 15px;
+margin-bottom: 15px;
+font-family: "Montserrat", sans-serif;
+font-style: italic;
+font-size: 19px;
+color: rgba(89, 34, 2);}
+
+.Paragrafo-filha2
+{margin-top: 25px;
+margin-left: 18px;
+margin-right: 15px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 550;
+font-size: 19px;
+color:rgba(89, 34, 2, 0.9);}
+
+.Preço
+{margin-left: 30px;
+margin-top: 25px;
+font-family: "Lilita One", sans-serif;
+font-size: 25px;
+font-weight: 200;
+letter-spacing: 1px;
+color: #BF0413;
+user-select: none;}
+
+.Icone-Menu
+{font-size: 20px;
+font-family: "Montserrat", sans-serif;
+font-style: italic;
+font-weight: 400;
+text-decoration: none;
+margin-left: 936px;
+border:#ffffff;
+border-radius: 60px;
+background-color:#82310f;
+color:#ffffff;
+padding: 20px;
+user-select: none;}
+
+.Icone-Menu:hover
+{user-select: none;
+font-size: 20px;
+background-color: #FFFFFF;
+transition: ease-in 200ms;
+color: #d67f16;
+text-decoration: none;}
+
+#Terceiro-Conteudo
+{width: 100%;
+height: 100%;}
+
+#Paragrafo-Principau
+{padding: 20px;
+margin-left: -200px;}
+
+
+.Paragrafo-Principal11
+{font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 800;
+font-style: italic;
+color: rgba(214, 127, 22);
+user-select: none;
+margin-top: 50px;
+justify-self: center;}
+
+
+.Titulo-Principal11
+{margin-top: 20px;
+font-family: "Montserrat", sans-serif;
+font-size: 38px;
+font-style: italic;
+color: #592202;
+margin-top: 30px;
+margin-bottom: 30px;
+user-select: none;
+justify-self: center;}
+
+#Div12
+{width: 850px;
+height: 650px;
+margin: 50px;
+border-radius: 30px;
+background-image: url(Pizza-Familia.jpg);}
+
+.Principal12-Paragrafo
+{width: 275px;
+margin: 429px 2px 0 30px;
+font-size: 25px;
+font-weight: 300;
+font-style: italic;
+font-family: "Montserrat", sans-serif;
+background-color: rgba(130, 49, 15);
+color: rgb(255, 255, 255);
+border-radius: 120px;
+padding: 3px;
+user-select: none;}
+
+.Titulo-Principal12
+{margin: 25px 2px 0 30px;
+font-family: "Montserrat", sans-serif;
+color:#ffffff;
+font-weight: 800;
+user-select: none;}
+
+.Paragrafo-Principal12
+{margin-top: 25px;
+margin-left: 30px;
+margin-right: 15px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 850;
+font-size: 19px;
+color:rgb(255, 255, 255);
+user-select: none;}
+
+#Div13
+{width: 850px;
+height: 650px;
+margin: 50px;
+border-radius: 30px;
+background-image: url(Combo-Burger.jpg);}
+
+.Principal13-Paragrafo
+{margin: 428px 2px 0 30px;
+width: 240px;
+font-size: 25px;
+font-weight: 300;
+font-style: italic;
+font-family: "Montserrat", sans-serif;
+background-color: rgba(130, 49, 15);
+color: rgb(255, 255, 255);
+border-radius: 120px;
+padding: 5px;
+user-select: none;}
+
+.Titulo-Principal13
+{margin: 25px 2px 0 30px;
+font-family: "Montserrat", sans-serif;
+color:#BF0413;
+font-weight: 800;
+user-select: none;}
+
+.Paragrafo-Principal13
+{margin-top: 25px;
+margin-left: 30px;
+margin-right: 15px;
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: 850;
+font-size: 19px;
+color:rgb(255, 255, 255);
+user-select: none;}
+
+.Pedir
+{text-decoration: none;
+position: relative;
+bottom: 40px;
+left: 700px;
+background-color: rgb(255, 255, 255);
+color: #BF0413;
+padding: 8px;
+border-radius: 8px;
+font-size: 20px;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;}
+
+.Pedir:hover
+{background-color: #592202;
+color: #FFFFFF;
+transition: ease-in 200ms;}
+
+#Ponta
+{padding: 20px;
+margin-left: -200px;}
+
+#Conteudo-Sobre
+{max-width: 150%;
+max-height: 150%;
+margin-top: 90px;}
+
+#Sobre
+{height: 90vh;
+display: flex;
+justify-content: center;}
+
+
+#Historia-Conteudo1
+{width: 50%;
+height: 750px;
+margin: 95px 0 0 150px;
+border-radius: 30px;}
+
+#Historia-Conteudo2
+{width: 50%;
+height: 750px;
+margin: 95px 150px 0 0;
+border-radius: 30px;}
+
+#Div14
+{width: 400px;
+height: 300px;
+margin: 63px 0 0 75px;
+border-radius: 30px;
+justify-self: flex-start;
+background-image: url(Chefe-Ajudante.jpg);}
+
+#Div15
+{width: 310px;
+height: 300px;
+margin: 30px 0 0 75px;
+border-radius: 30px;
+background-color: rgba(214, 127, 22, 0.7);}
+
+#Div15 img
+{margin: 15px 0 0 220px;
+width: 50px;}
+
+.Conteudo-Historia
+{color: #FFFFFF;
+font-size: 45px;
+letter-spacing: 5px;
+font-weight: 250;
+font-family: "Poppins", sans-serif;
+padding: 0 15px 0 15px;
+margin-left: 70px;}
+
+.PP-Historia
+{color: #FFFFFF;
+font-size: 25px;
+letter-spacing: 3px;
+font-style: italic;
+font-weight: 350;
+font-family: "Poppins", sans-serif;
+padding: 0 15px 0 15px;
+margin: 0 0 20px 20px;}
+
+.Conteudo-Historia2
+{color: #FFFFFF;
+font-size: 35px;
+letter-spacing: 2px;
+font-style: oblique;
+font-weight: 350;
+font-family: "Montserrat", sans-serif;
+padding: 0 15px 0 15px;
+margin: 0 0 0 30px;}
+
+#Div16
+{width: 310px;
+height: 300px;
+border-radius: 30px;
+background-color: rgba(130, 49, 15, 0.9);
+position: relative;
+bottom: 630px;
+left: 500px;}
+
+#Div16 img
+{margin: 15px 0 0 230px;}
+
+#Div17
+{width: 400px;
+height: 300px;
+border-radius: 30px;
+justify-self: flex-end;
+position: relative;
+bottom: 600px;
+right: 100px;   
+background-image: url(Prato-Xique.jpg);}
+
+#Div18 .Paragrafo-Historia
+{margin: 70px 0 20px 40px;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 18px;
+color:rgba(214, 127, 22);}
+
+#Div18 .Titulo-Historia1
+{margin: 20px 0 20px 40px;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-style: italic;
+font-size: 30px;
+color: rgba(130, 49, 15);}
+
+#Div18 .Titulo-Historia2
+{margin: 20px 0 20px 40px;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-style: italic;
+font-size: 25px;
+color: rgba(130, 49, 15);}
+
+#Div18 .Paragrafo-Historia2
+{margin: 50px 20px 20px 40px;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 18px;
+color: rgba(130, 49, 15, 0.7);}
+
+#Div19
+{display: flex;
+margin-top: 60px;
+flex-wrap: wrap;
+justify-content: center;}
+
+#Div20
+{margin: 0 20px 30px 20px;
+font-family: "Montserrat", sans-serif;
+color: rgba(130, 49, 15);}
+
+#Div21
+{margin: 0 0 30px 30px;
+font-family: "Montserrat", sans-serif;
+color: rgba(130, 49, 15);}
+
+#Div22
+{margin: 0 111px 40px 20px;
+font-family: "Montserrat", sans-serif;
+color: rgba(130, 49, 15);}
+
+#Div23
+{margin: 0 10px 20px 15px;
+font-family: "Montserrat", sans-serif;
+color: rgba(130, 49, 15);}
+
+#Sobre a
+{margin: 0 0 0 22px;
+font-size: 15px;
+font-family: "Montserrat", sans-serif;
+font-style: italic;
+font-weight: 400;
+text-decoration: none;
+border:#ffffff;
+border-radius: 60px;
+background-color:#82310f;
+color:#ffffff;
+padding: 8px;
+user-select: none;}
+
+#Sobre a:visited
+{color: rgb(255, 255, 255);}
+
+#Sobre a:hover
+{user-select: none;
+font-size: 15px;
+background-color: #FFFFFF;
+transition: ease-in 200ms;
+color: #d67f16;
+text-decoration: none;}
+
+#Pontu
+{padding: 20px;
+margin-left: -200px;}
+
+#Formulario
+{max-width: 150%;
+max-height: 150%;
+margin-top: 90px;
+margin-bottom: 30px;}
+
+#Div24
+{display: flex;
+flex-wrap: nowrap;
+width: 100%;
+height: 87vh;}
+
+#pai-container1
+{width: 50%;
+height: 900px;
+padding: 60px;
+justify-items: left;}
+
+#Formulario-Conteudo
+{display: flex;
+flex-wrap: wrap;
+width: 850px;
+height: 300px;
+margin-top: 30px;
+margin-left: 40px;}
+
+#Div25
+{width: 850px;
+height: 230px;}
+
+.Paragrafo-Forms
+{font-family: "Montserrat", sans-serif;
+font-size: 26px;
+font-weight: 350;
+font-style: normal;
+color: rgba(214, 127, 22);
+margin: 45px 0 30px 115px;}
+
+.Titulo-Formulario
+{font-family: "Poppins", sans-serif;
+font-size: 50px;
+font-weight: 500;
+font-style: italic;
+letter-spacing: 4px;
+color: rgba(191, 4, 19, 1);
+margin: 0 0 6px 130px;}
+
+.Titulo-Formulario2
+{font-family: "Poppins", sans-serif;
+font-size: 42px;
+font-weight: 394;
+font-style: italic;
+letter-spacing: 4.5px;
+color: rgba(191, 4, 19, 0.5);
+margin: 0 0 0 130px;}
+
+#Formulario-Conteudo input
+{width: 350px;
+height: 41px;
+margin-top: 25px;
+border-radius: 15px;
+padding: 12px;
+background-color: #82310f;}
+
+#Data
+{color:rgba(255, 255, 255);}
+
+#Formulario-Conteudo input::placeholder
+{color: rgba(255, 255, 255);
+font-weight: 200;}
+
+#Div26
+{width: 425px;
+height: 75px;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+font-weight: 550;
+font-style: normal;
+color: rgba(214, 127, 22);}
+
+#Div27
+{width: 425px;
+height: 75px;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+font-weight: 550;
+font-style: normal;
+color: rgba(214, 127, 22);}
+
+#Div28
+{width: 425px;
+height: 75px;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+font-weight: 550;
+font-style: normal;
+color: rgba(214, 127, 22);}
+
+#Div29
+{width: 425px;
+height: 75px;
+font-family: "Montserrat", sans-serif;
+font-size: 20px;
+font-weight: 550;
+font-style: normal;
+color: rgba(214, 127, 22);}
+
+#pai-container1 a.Confirme
+{background-color: rgba(130, 49, 15);
+font-family: "Montserrat", sans-serif;
+font-size: 27px;
+position: relative;
+left: 245px;
+top: 30px;
+text-decoration: none;
+border-radius: 18px;
+padding: 8px;}
+
+#pai-container1 a.Confirme:visited
+{color: rgb(255, 255, 255);}
+
+#pai-container1 a.Confirme:hover
+{color: rgba(214, 127, 22);
+background-color: rgb(255, 255, 255);
+transition: ease-in 400ms;}
+
+#Imag
+{width: 50%;
+height: 80vh;
+margin-right: 45px;
+margin-bottom: 30px;
+border-radius: 3px 10px 10px 3px;
+background-image: url(Reserva.png);
+opacity: 0.9;}
+
+#Ponti
+{padding: 20px;
+margin-left: -900px;}
+
+#Contate
+{width: 100%;
+height: 20vh;
+display: flex;
+margin-top: 94px;
+background-color: rgba(75, 88, 124, 0.2);
+justify-content: space-between;}
+
+.Paragrafo-Contate
+{width: 300px;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 15px;
+margin-left: 20px;
+margin-right: 90px;
+color: rgba(130, 49, 15);}
+
+.Titulo-Horarios
+{font-family: "Lilita One", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 36px;
+margin-left: 20px;
+margin-bottom: 20px;
+color: #BF0413;}
+
+#Rodape
+{width: 100%;
+height: 30px;
+background-color: rgba(75, 88, 124, 0.4);}
+
+.Titulo-Rodape
+{justify-self: center;
+font-size: 19px;
+color: rgba(191, 4, 19, 1);
+font-style: italic;
+font-family: "Montserrat", sans-serif;
+padding-top: 5px;}
